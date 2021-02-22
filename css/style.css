@@ -123,6 +123,9 @@ p {
   background: none;
 }
 
+.list-item1 > a, .list-item2 > a, .list-item4 > a, .list-item5 > a, .list-item6 > a {
+  position: relative;
+}
 @media only screen and (max-width: 1200px) {
   .list-item1 > a::before, .list-item2 > a::before, .list-item4 > a::before, .list-item5 > a::before, .list-item6 > a::before {
     display: block;
@@ -244,6 +247,11 @@ header .l_header-left p a span {
     display: none;
   }
 }
+@media only screen and (max-width: 1280px) {
+  header .l_header-left p a span {
+    display: none;
+  }
+}
 header .l_header-left p a span strong {
   font-size: 18px;
   font-size: 1.8rem;
@@ -312,7 +320,7 @@ header .nav-body .menu ul li a {
   display: -ms-flexbox;
   display: flex;
   height: auto;
-  padding: 10px;
+  padding: 15px 60px 15px 15px;
 }
 header .nav-body .menu ul li a a:hover {
   color: #2498b3;
