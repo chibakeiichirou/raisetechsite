@@ -354,7 +354,9 @@ header .nav-body .menu a {
   }
 }
 header .nav-body .menu a:hover {
-  background-color: #d4f1f8;
+  color: #2498b3;
+  background-color: #fff;
+  text-decoration: none;
 }
 @media only screen and (max-width: 1200px) {
   header .nav-body .menu a:hover {
