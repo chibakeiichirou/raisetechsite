@@ -1,22 +1,6 @@
 jQuery( function () {
 
-    // $(".menu").hide();
-    // $(".sub-menu1").hide();
-    // $(".sub-menu2").hide();
-    // $(".sub-menu4").hide();
-    // $(".sub-menu5").hide();
-    // $(".sub-menu6").hide();
-
-
-    // $(".p-hamburger").on("click", function () {
-    //         $(this).toggleClass("is-open");
-    //         $("body").toggleClass("is-open");
-    //         $(".menu").toggleClass("is-open");
-    //         $(".menu").slideToggle("fast");
-            // $('.nav-body').css('display','block');
-            // $('.menu').css('display','block');
-
-        // });
+  
 
 
         $(".p-hamburger").on("click", function () {
